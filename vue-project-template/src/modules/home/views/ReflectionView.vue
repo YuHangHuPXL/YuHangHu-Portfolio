@@ -12,16 +12,11 @@ import AppPage from '@/components/app/AppPage.vue'
 			:cols="1"
 		>
 			<AppText class="leading-loose">
-				Als startende student aan de hogeschool PXL had ik niet echt een doel in het oog behalve afstuderen. Doorheen de
-				jaren heb ik dan mijn passie gevonden voor applicatieontwikkeling. Mijn doel is dan ook verandert van het alleen
-				afstuderen tot het worden van een goede developer.
+        Als beginnende student aan Hogeschool PXL had ik geen specifiek doel voor ogen, behalve afstuderen. In de loop der jaren heb ik echter mijn passie voor applicatieontwikkeling ontdekt. Mijn doel is verschoven van enkel afstuderen naar het worden van een bekwame developer.
 			</AppText>
 
 			<AppText class="leading-loose">
-				In het algemeen ben ik vrij blij met mijn progressie over de jaren heen. Door lessen en projecten zijn mijn
-				ontwikkeling skills goed op vooruitgegaan. De Codebash hackaton had dit ook bevestigd dat ik op de goede pad
-				was. Door de verschillende seminaries en de innovatieroute heb ik ook meerdere dingen bijgeleerd naast wat we op
-				school hadden gezien. De interessantste seminaries waren in mijn ogen :
+        Ik ben over het algemeen erg tevreden met mijn vooruitgang door de jaren heen. Door lessen en projecten zijn mijn ontwikkelingsvaardigheden aanzienlijk verbeterd. De Codebash hackathon bevestigde dat ik op de goede weg ben. Dankzij verschillende seminars en de innovatieroute heb ik ook veel geleerd buiten wat we op school hebben gezien. De interessantste seminars in mijn ogen waren:
 			</AppText>
 
 			<ul class="mx-auto list-disc">
@@ -31,34 +26,15 @@ import AppPage from '@/components/app/AppPage.vue'
 			</ul>
 
 			<AppText class="leading-loose"
-				>De eerste twee waren interessant omdat deze veel meerwaarde gaf voor een developer. Het observeren van je
-				applicatie is zeer belangrijk om het gebruik van je applicatie te monitoren. Fouten worden makkelijker
-				gedetecteerd met loggen. Feature toggles zijn een interessante tool om nieuwe features te testen. De lessen uit
-				deze twee seminaries ga ik dus zeker gebruiken in mijn latere projecten. De laatste heeft niks te maken met
-				applicatieontwikkeling maar vind ik persoonlijk een zeer interessant onderwerp.
+				>De eerste twee waren vooral interessant omdat ze veel toegevoegde waarde bieden voor een ontwikkelaar. Het observeren van je applicatie is cruciaal om het gebruik te monitoren en fouten makkelijker te detecteren met logging. Feature toggles zijn een nuttige tool om nieuwe features te testen zonder het bestaande systeem te verstoren. De kennis uit deze twee seminars zal ik zeker toepassen in mijn toekomstige projecten. Het laatste seminar had weliswaar niets te maken met applicatieontwikkeling, maar is een onderwerp dat ik persoonlijk zeer boeiend vind.
 			</AppText>
 
 			<AppText class="leading-loose">
-				Op vlak van persoonlijke ontwikkeling heb ik ook een groei doorgemaakt dankzij de verschillende POP-sessies en
-				andere activiteiten. Via deze sessies en de projectweek heb ik mezelf beter leren kennen. Hiermee heb ik mijn
-				sterkere punten en zwakkere punten ontdekt. Ik ben van nature een uitvoerend persoon die doelgericht is. Na
-				verschillende projecten te hebben uitgevoerd met verschillende teamgenoten ben ik dan ook geëvolueerd tot een
-				meer gebalanceerd persoon. Nu probeer ik ook meer aandacht te besteden aan de andere hoofdpersonaliteiten zoals
-				denken, samenwerken en communiceren.
-			</AppText>
-
-			<AppText class="leading-loose"
-				>Na de projecten op school is het ook aanbod gekomen dat ik vrij deftig leider kan zijn. Mijn team kan op mij
-				rekenen om het project tot een goed einde te brengen. Ik neem graag de initiatief en probeer iedereen op
-				dezelfde niveau te brengen.
-			</AppText>
+        Op het gebied van persoonlijke ontwikkeling heb ik een aanzienlijke groei doorgemaakt dankzij de verschillende POP-sessies en andere activiteiten. Door deze sessies en de projectweek heb ik mezelf beter leren kennen en mijn sterke en zwakke punten ontdekt. Van nature ben ik een uitvoerend en doelgericht persoon, maar door verschillende projecten uit te voeren met diverse teamgenoten, ben ik geëvolueerd tot een meer gebalanceerde persoon. Tegenwoordig besteed ik ook meer aandacht aan andere hoofdpersoonlijkheden zoals denken, samenwerken en communiceren. Na de projecten op school is het ook aanbod gekomen dat ik vrij deftig leider kan zijn. Mijn team kan op mij rekenen om het project tot een goed einde te brengen. Ik neem graag de initiatief en probeer iedereen op dezelfde niveau te brengen.
+      </AppText>
 
 			<AppText class="leading-loose">
-				Helaas ben ik geen perfect persoon en blijft communiceren nog steeds een zwak punt waaraan ik moet gaan werken.
-				Het probleem is niet dat ik niet wil communiceren maar dat ik vergeet om te communiceren. Soms ben ik met mijn
-				gedachten te ver in het programmeren dat ik soms vergeet iets te mee te delen. Een ander voorbeeld is dat ik aan
-				iets bezig ben en vergeten eerst te vragen of dit wel moet aan de rest van mijn team. Dit zal zeker een
-				aandachtpunt zijn zelfs na mijn opleiding.
+        Echter, ik ben niet perfect en communicatie blijft een zwak punt waar ik aan moet werken. Het probleem is niet dat ik niet wil communiceren, maar dat ik soms vergeet te communiceren. Soms ben ik zo verdiept in het programmeren dat ik vergeet om met mijn collega’s te communiceren. Een ander voorbeeld is dat ik soms aan een taak begin zonder eerst te overleggen met de rest van mijn team. Dit zal zeker een aandachtspunt blijven, ook na mijn opleiding.
       </AppText>
       <img alt="x-factor" class="w-[500px] mx-auto" src="@/assets/images/x-factor.png"/>
 			<AppText class="leading-loose">
