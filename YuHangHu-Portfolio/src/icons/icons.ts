@@ -40,6 +40,7 @@ export const icons = {
 	upload: import('./UploadIcon.vue'),
 	warning: import('./WarningIcon.vue'),
 	linkedIn: import('./LinkedInIcon.vue'),
+	quotes: import('./QuoteIcon.vue'),
 } satisfies Record<string, Component>
 
 type CustomIcons = {

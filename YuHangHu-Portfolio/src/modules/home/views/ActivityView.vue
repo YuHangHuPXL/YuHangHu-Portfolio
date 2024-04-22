@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { AppText } from '@wisemen/vue-core'
 
-import AppDivider from '@/components/app/AppDivider.vue'
+import AppGrid from '@/components/app/AppGrid.vue'
+import AppPage from '@/components/app/AppPage.vue'
 import ActivityDataView from '@/modules/home/components/ActivityDataView.vue'
 
 interface Activity {
@@ -124,53 +125,80 @@ const innovations: Activity[] = [
 </script>
 
 <template>
-	<div>
-		<AppText>Seminaries</AppText>
-		<ActivityDataView
-			v-for="seminary in seminaries"
-			:key="seminary.title"
-			:date="seminary.date"
-			:description="seminary.description"
-			:location="seminary.location"
-			:title="seminary.title"
-		/>
-	</div>
+	<AppPage title="Activiteiten">
+		<AppGrid
+			class="gap-y-8"
+			:cols="1"
+		>
+			<div>
+				<AppText
+					class="pb-5"
+					variant="title"
+					>Seminaries</AppText
+				>
+				<AppGrid :cols="3">
+					<ActivityDataView
+						v-for="seminary in seminaries"
+						:key="seminary.title"
+						:date="seminary.date"
+						:description="seminary.description"
+						:location="seminary.location"
+						:title="seminary.title"
+					/>
+				</AppGrid>
+			</div>
 
-	<AppDivider direction="horizontal" />
-	<div>
-		<AppText>Persoonlijke ontwikkeling</AppText>
-		<ActivityDataView
-			v-for="development in developments"
-			:key="development.title"
-			:date="development.date"
-			:description="development.description"
-			:location="development.location"
-			:title="development.title"
-		/>
-	</div>
-	<AppDivider direction="horizontal" />
-	<div>
-		<AppText>Innovatie</AppText>
-		<ActivityDataView
-			v-for="innovation in innovations"
-			:key="innovation.title"
-			:date="innovation.date"
-			:description="innovation.description"
-			:location="innovation.location"
-			:title="innovation.title"
-		/>
-	</div>
-
-	<AppDivider direction="horizontal" />
-	<div>
-		<AppText>Student Engagement</AppText>
-		<ActivityDataView
-			v-for="engagement in engagements"
-			:key="engagement.title"
-			:date="engagement.date"
-			:description="engagement.description"
-			:location="engagement.location"
-			:title="engagement.title"
-		/>
-	</div>
+			<div>
+				<AppText
+					class="pb-5"
+					variant="title"
+					>Persoonlijke ontwikkeling</AppText
+				>
+				<AppGrid :cols="3">
+					<ActivityDataView
+						v-for="development in developments"
+						:key="development.title"
+						:date="development.date"
+						:description="development.description"
+						:location="development.location"
+						:title="development.title"
+					/>
+				</AppGrid>
+			</div>
+			<div>
+				<AppText
+					class="pb-5"
+					variant="title"
+					>Innovatie</AppText
+				>
+				<AppGrid :cols="3">
+					<ActivityDataView
+						v-for="innovation in innovations"
+						:key="innovation.title"
+						:date="innovation.date"
+						:description="innovation.description"
+						:location="innovation.location"
+						:title="innovation.title"
+					/>
+				</AppGrid>
+			</div>
+			<div>
+				<AppText
+					class="pb-5"
+					variant="title"
+					>Student Engagement</AppText
+				>
+				<AppGrid :cols="3">
+					<ActivityDataView
+						v-for="engagement in engagements"
+						:key="engagement.title"
+						:date="engagement.date"
+						:description="engagement.description"
+						:location="engagement.location"
+						:title="engagement.title"
+					/>
+				</AppGrid>
+			</div>
+		</AppGrid>
+	</AppPage>
 </template>

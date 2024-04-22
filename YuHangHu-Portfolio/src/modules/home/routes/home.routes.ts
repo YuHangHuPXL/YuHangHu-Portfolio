@@ -22,6 +22,9 @@ export interface HomeRoutes {
 	'project-week': {
 		path: 'project-week'
 	}
+	'reflection': {
+		path: 'reflection'
+	}
 }
 
 export const homeRoutes: RouteRecordTyped[] = [
@@ -62,6 +65,11 @@ export const homeRoutes: RouteRecordTyped[] = [
 				name: 'project-week',
 				path: 'project-week',
 				component: async () => await import('@/modules/home/views/ProjectWeekView.vue'),
+			},
+			{
+				name: 'reflection',
+				path: 'reflection',
+				component: async () => await import('@/modules/home/views/ReflectionView.vue'),
 			},
 		],
 	},

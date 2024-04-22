@@ -17,12 +17,12 @@ const tabs: TabWithRoutes[] = [
 		to: { name: 'home' },
 	},
 	{
-		label: 'Activiteiten',
-		to: { name: 'activities' },
-	},
-	{
 		label: 'Over mij',
 		to: { name: 'about' },
+	},
+	{
+		label: 'Activiteiten',
+		to: { name: 'activities' },
 	},
 	{
 		label: 'DDD',
@@ -39,6 +39,10 @@ const tabs: TabWithRoutes[] = [
 	{
 		label: 'Projectweek 2TIN',
 		to: { name: 'project-week' },
+	},
+	{
+		label: 'Eindreflectie',
+		to: { name: 'reflection' },
 	},
 ]
 
